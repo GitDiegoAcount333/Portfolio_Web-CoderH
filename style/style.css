@@ -62,20 +62,12 @@ hr {
   padding: 0 30px;
 }
 
-.large:hover {
+.large {
   font-size: 18px;
-  background: #847d7d;
-  transition: 3s;
-  box-shadow: 2px 3px 10px white;
-  text-shadow: 2px 2px 3px black;
 }
 
-.animate__animated animate__backInDown {
+.display-1 {
   font-size: 80px;
-}
-
-.animate__animated animate__backOutRight {
-  font-size: auto;
 }
 
 .btn {
@@ -166,24 +158,17 @@ hr {
 
 #work .work-row {
   display: flex;
-  gap: 50px;
-  margin-block-start: 20px;
 }
 
-#work .work-row-box:hover {
+#work .work-row-box {
   border: 2px solid #1c1c1c;
   margin: 10px;
   padding: 30px;
-  box-shadow: 2px 3px 10px white;
-  text-shadow: 2px 2px 3px black;
-  gap: 30px;
-  background-color: rgb(108, 117, 117);
-  transition: 3s;
 }
 
 #work .work-row-box p {
   padding-bottom: 17px;
-  text-shadow: 1px 1px 1px rgb(124, 120, 133);
+  text-shadow: 1px 1px 1px rgb(88, 63, 151);
 }
 
 /* About */
@@ -219,9 +204,9 @@ hr {
 }
 
 #contact .contact-info p {
-  color: #fff;
-  text-shadow: 4px 4px 8px rgba(25, 56, 231, 0.863);
-  font-size: x-large;
+  color: black;
+  text-shadow: 3px 5px 10 px white;
+  font-size: larger;
 }
 
 #contact .contact-logo img {
@@ -249,3 +234,5 @@ hr {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+

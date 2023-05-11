@@ -1,7 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 /* Reset */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -65,14 +67,23 @@ hr {
 	padding: 0 30px;
 }
 
-.large {
+.large:hover {
 	font-size: 18px;
+	background: #847d7d;
+	transition: 3s;
+	box-shadow: 2px 3px 10px white;
+	text-shadow: 2px 2px 3px black;
 }
 
-.display-1 {
-	font-size: 80px;
+.animate__animated animate__backInDown {
+ font-size: 80px;
+ 
+}
+.animate__animated animate__backOutRight {
+	font-size: auto;
 
 }
+
 
 .btn {
 	display: inline-block;
@@ -83,6 +94,7 @@ hr {
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-shadow: 3px 3px 10px black;
+
 }
 
 .btn-outline {
@@ -103,6 +115,7 @@ hr {
 	font-size: 14px;
 	font-weight: 400;
 }
+
 
 /* Header   */
 
@@ -157,6 +170,7 @@ hr {
 	padding-top: 200px;
 }
 
+
 /* Work   */
 
 
@@ -171,17 +185,25 @@ hr {
 
 #work .work-row {
 	display: flex;
+	gap: 50px;
+	margin-block-start: 20px;
 }
 
-#work .work-row-box {
+#work .work-row-box:hover {
 	border: 2px solid #1c1c1c;
 	margin: 10px;
 	padding: 30px;
+	box-shadow: 2px 3px 10px white;
+	text-shadow: 2px 2px 3px black;
+	gap: 30px;
+	background-color: rgb(108, 117, 117);
+	transition: 3s;
+	
 }
 
 #work .work-row-box p {
 	padding-bottom: 17px;
-	text-shadow: 1px 1px 1px rgb(88, 63, 151);
+	text-shadow: 1px 1px 1px rgb(124, 120, 133);
 }
 
 /* About */  
@@ -195,6 +217,8 @@ hr {
 #about .about-text {
 	padding: 60px 50px;
 }
+
+
 
 #about .about-text p {
 	padding-bottom: 30px;
@@ -212,7 +236,7 @@ hr {
 #contact .container {
 	display: flex;
 	justify-content: space-between;
-
+	
 }
 
 #contact .contact-info,
@@ -222,9 +246,10 @@ hr {
 }
 
 #contact .contact-info p {
-	color: black;
-	text-shadow: 3px 5px 10 px white;
-	font-size: larger;
+	color: #fff;
+	text-shadow: 4px 4px 8px rgba(25, 56, 231, 0.863);
+	font-size: x-large;
+
 }
 
 #contact .contact-logo img {
@@ -233,7 +258,6 @@ hr {
 }
 
 #contact .contact-logo {
-
 	text-align: center;
 
 }
